@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Dog a[] = new Dog[2];
+        Dog a[] = new Dog[3];
 
         a[0].setAge(2);
         a[0].setName("Шарик");
@@ -14,5 +14,7 @@ public class Main
         a[2].setName("Тетраэдрик");
 
         System.out.println(a[0].toStringDog());
+
+        System.out.println("Человеческий возраст собаки"+ a[0].ageAsHuman());
     }
 }
